@@ -1,0 +1,48 @@
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+thead{
+    font-size: 26px;
+    background-color: brown;
+    color: white;
+}
+
+th{
+    height: 50px;
+}
+
+td{
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.titulos{
+    height: 25px;
+    font-size: 16px;
+}
+
+.receso{
+    height: 25px;
+    background-color: brown;
+    color: white;
+}
+
+.receso2{
+    height: 25px;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+td:nth-child(1){
+    width: 120px;
+}
